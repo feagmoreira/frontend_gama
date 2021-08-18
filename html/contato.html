@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Gama Academy</title>
+
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <!-- Criando um menu com base na tabela -->
+    <table border="0" width="100%" class="menu">
+        <!-- Inserindo uma linha na tabela -->
+        <tr>
+            <!-- inserindo colunas na tabela -->
+            <td align="center"><a href="../html/index.htm"><img src="../imagens/logo.png" width="200" height="50"></td>
+            <td align="center">QUEM SOMOS</td>
+            <td align="center">PARA PESSOAS</td>
+            <td align="center">PARA EMPRESAS</td>
+            <td align="center">CONTATO</td>
+            <td align="center">CONTEÚDOS</td>
+        </tr>
+    </table>
+
+    <!-- Criando o formulário na nossa página -->
+    <form id="contatos" method="post">
+        <!-- É uma caixa que irá armezenar os campos que compõe o formulário -->
+        <fieldset>
+            <!-- Inserindo uma legenda no formulário -->
+            <legend> Preencha os campos abaixo para fazer os nossos cursos</legend>
+            <!-- Criando campos no formulário -->
+            <label>Nome Aluno(a):</label><input type="text" name="nome_aluno" required><br><br>
+            <label>Email:</label><input type="email" name="email_aluno" required><br><br>
+            <label>Senha:</label><input type="password" name="senha_aluno" required><br><br>
+            
+            <!-- Criando um tipo de escolha com a opção radio -->
+            <label>Genero:</label>
+            <input type="radio" name="genero" value="Feminino" required>Feminino
+            <input type="radio" name="genero" value="Masculino" required>Masculino
+            <input type="radio" name="genero" value="Não Informado" required>Não Informado
+            <input type="radio" name="genero" value="Outros" required>Outros<br>
+            <br>
+            <!-- Criando um tipo de escolha com a opção dropdown -->
+            <label> Escolha o curso que desejado:</label>
+            <select required>
+                <option value="" name="cursos"></option>
+                <option value="HTML" name="cursos">HTML</option>
+                <option value="CSS" name="cursos">CSS</option>
+                <option value="JS" name="cursos">JavaScript</option>
+            </select>
+            <br>
+            <br>
+
+            <!-- Criando escolhas de período -->
+            <label> Escolha o período desejado:</label>
+            <input type="checkbox" value="Manhã" name="periodo">Manhã
+            <input type="checkbox" value="Tarde" name="periodo">Tarde
+            <input type="checkbox" value="Noite" name="periodo">Noite<br><br>
+            
+            <!-- Campo de data -->
+            <label> Ecolha a data que deseja cursar:</label>
+            <input type="date" name="data_curso"><br><br>
+
+            <!-- Criando um campo de mensagem para observação -->
+            <label>Mensagem:</label><br>
+            <textarea name="mensagem" cols="50" rows="2" maxlength="10">Mensagem</textarea>
+            <br>
+            <br>
+            <!-- Criando um campo para anexar documentos -->
+            <label>Para realizar a sua matrícula é necessário um comprovante de residencia</label>
+            <br>
+            <input type="file" name="arquivo"> <br> <br>
+            <br>
+
+            <!-- Criando um botão de envio de dados do formulário-->
+            <input type="submit" value="Enviar"> 
+
+            
+
+
+
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>

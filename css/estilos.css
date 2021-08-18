@@ -1,0 +1,47 @@
+
+         /* Criando uma biblioteca de CSS para comando nativos em HTML */
+        
+        body{
+            background-color: rgba(104, 87, 87, 0.459);
+        }
+
+        h1{
+            font-size: 26px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:blueviolet;
+        }
+        p{
+            font-size: 12px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        /* Criando uma biblioteca de CSS para classes */
+        .paragrafo_especial{
+            font-size: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:grey;
+        }
+
+        .menu{
+            font-size: 18px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder;
+            color: blue;
+
+        }
+
+        /* Estilos de cores para a página em BootStrap*/
+        .container{
+            border: 3px solid black;
+        }
+        .div1{
+            background-color: yellow;
+        }
+        .div2{
+            background-color: green;
+        }
+        .div3{
+            background-color: blue;
+        }
+        .div4{
+            background-color: red;
+        }
